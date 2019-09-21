@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hanbin's Site</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+        body {
+            overflow-x: hidden;
+        }
+        .main {
+            width: 100vw;
+            height: 100vh;
+
+            color: white;
+            font-size: 1.6em;
+            background-color: #36afff;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main img {
+            height: 50%;
+        }
+        .main h1 {
+            font-size: 4em;
+        }
+        .main div {
+            width: 40%;
+        }
+        .like {
+            width: 100vw;
+            height: 100vh;
+
+            color: white;
+            font-size: 1.6em;
+            background-color: hotpink;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .like img{
+            height: 120px;
+            border: 5px solid grey;
+        }
+        .like li {
+            font-size: 1.2em;
+            margin: 20px;
+
+            display: flex;
+            align-items: center;
+        }
+/* copy paste*/
+        .hobby {      
+            width: 100vw;
+            height: 100vh;
+
+            color: white;
+            font-size: 1.6em;
+            background-color: grey;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            margin-top: 40px;
+
+            width: 60%
+        }
+        .list div {
+            width: 30%;
+
+            padding: 100px 0;
+            margin: 10px;
+
+            text-align: center;
+
+            background-color: #36afff;
+        }
+        .List div:hover {
+            transform: scake(1,1); 
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://cdn.vox-cdn.com/thumbor/V1lOFhoifgorg5qOnR8sPXyYvQ0=/0x0:2040x1560/1200x800/filters:focal(857x617:1183x943)/cdn.vox-cdn.com/uploads/chorus_image/image/65088839/Android_logo_stacked__RGB_.5.jpg" alt="">
+        <div>
+            <h1>안녕하세요!<br>반가워요!</h1>
+            <p>저는 한빈이라고 합니다 사이트에 방문해주셔서 감사합니다 :)</p>
+        </div>
+    </div>
+    <div class="like">
+        <h1>좋아하는 것</h1>
+        <ul>
+            <li><img src="https://cdn.vox-cdn.com/thumbor/V1lOFhoifgorg5qOnR8sPXyYvQ0=/0x0:2040x1560/1200x800/filters:focal(857x617:1183x943)/cdn.vox-cdn.com/uploads/chorus_image/image/65088839/Android_logo_stacked__RGB_.5.jpg">안드로이드 커스텀롬</li>
+            <li><img src="https://www.python.org/static/img/python-logo@2x.png">파이썬같은 간결한 코드</li>
+            <li><img src="https://static.bhphoto.com/images/images2500x2500/1557317228_1475551.jpg">구글 픽셀 기기들</li>
+            <li><img src="https://venturebeat.com/wp-content/uploads/2019/09/AMD-Ryzen-2nd-Gen_8-2060x1057.png?fit=400%2C205&strip=all">AMD RYZEN</li>
+        </ul>
+    </div>
+    <div class="hobby">
+        <h1>취미</h1>
+        <div class="list">
+            <div>Python</div>
+            <div>FL Studio 20</div>
+            <div>Custom Roms</div>
+            <div>Go Programming Language</div>
+            <div>AOSP</div>
+            <div>Linux(Ubuntu 조아)</div>
+        </div>
+    </div>
+</body>
+</html>
